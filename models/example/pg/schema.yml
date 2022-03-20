@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: airflow
+    description: "Airflow DAGs"
+    database: airflow
+    schema: public
+    tables:
+      - name: ftmo_orders
+        description: "Details about the ftmo order logs"
+
